@@ -4,7 +4,7 @@ set :application, "planeta-smile"
 
 # настройка системы контроля версий и репозитария, по умолчанию - git, если используется иная система версий, нужно изменить значение scm
 set :scm, :git
-set :repository,  "тут нужно указать путь к вашему репозитарию"
+set :repository,  "git@github.com:dshilin/ps.git"
 
 set :user, "hosting_snayp"
 set :use_sudo, false
