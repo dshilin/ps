@@ -1,0 +1,307 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+@import url(content.css);
+
+/*reset*/
+
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, a, em, ins, small, strong, b, i, dl, dt, dd, form, label, table, tbody, tfoot, thead, tr, th, td, p, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+img {
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+body {
+  line-height: 1.3;
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+height:100%;
+}
+
+body {background:#e2e2e2 url(i/bg.gif) 50% 375px repeat-x; font-family: arial, tahoma, sans-serif; font-size:100.01%;color: #000;} 
+a {color:#626262;}
+a:hover {text-decoration:none;}
+.wrapper {
+background:#e2e2e2 url(i/bg.png) 50% top no-repeat;
+ width:100%;
+min-height:100%;
+height:auto  !important;
+height:100%;
+position:relative;
+font-size:14px;
+min-width:1000px;
+}
+
+.head { background: url(i/head_bg.png) 50% top no-repeat; width: 960px; height: 229px; margin: 0 auto; position:relative; overflow:hidden; margin-bottom: 20px; color: #000; font-size: 12px;}
+.logo {position:absolute; left:0; top:23px;}
+.logo img {display: block; margin-top: 9px;}
+.logo a {text-decoration: none; color: #000;}
+.top-nav {position: absolute; top: 0; left: 256px; font-size: 14px;}
+.top-nav li {float: left; font-weight: bold;}
+.top-nav li a {color: #000; display: block; padding: 0 11px; padding-top: 21px; text-decoration: none;}
+.top-nav li a:hover, .top-nav li span {display: block; border-top: 5px solid #c30000;  padding: 0 11px; padding-top: 16px; color: #c30000;}
+.contacts {  color: #000; position: absolute; top: 23px; right: 0; text-align: right;}
+.contacts .phone span { color: #5e7810; 
+text-shadow: 0px 1px 1px white; 
+font-weight: bold; font-size: 110%;}
+.contacts .phone span span {  font-size: 24px;}
+.contacts .phone p {  margin-bottom: 15px;}
+.contacts .schedule{  padding-top: 64px;}
+.contacts .schedule p{  padding-bottom: 11px;}
+.authorization { position: absolute; top: 163px; left: 0; border-bottom: 1px dotted #000; color: #000;}
+.authorization a {  text-decoration: none; color: #000;}
+
+.offer {  width: 542px;  height: 180px;  position: absolute;  bottom: 0;  left: 215px;  overflow: hidden;  text-align: center;}
+.offer a.left {  position: absolute;  display: block;  width: 23px;  height: 40px;  background: url(i/arrow_left.png) no-repeat;  position: absolute;  bottom: 53px;  left: 0;}
+.offer a.left:hover {  background: url(i/arrow_left_on.png) no-repeat;}
+.offer a.right {  position: absolute;  display: block;  width: 23px;  height: 40px;  background: url(i/arrow_right.png) no-repeat;  position: absolute;  bottom: 53px;  right: 0;}
+.offer a.right:hover {  background: url(i/arrow_right_on.png) no-repeat;}
+
+.menu {
+  background: #ffffff;  height: 60px;}
+
+.menu ul {
+  display: block;  width: 960px;  margin: 0 auto; list-style-type: none; height: 39px;  background: url(i/menu_bg.png) 50% bottom no-repeat;  padding-bottom: 8px;  margin-bottom: -8px;  position: relative;  text-align: center;  padding-top: 21px;  z-index: 10;}
+
+.menu ul li {display: inline; border-left: 1px dashed #000; padding: 0 12px; font-weight: bold;}
+.menu ul li:first-child {  border-width: 0;}
+.menu ul li span, .menu ul li a:hover {color: #5e7810;}
+
+.page {width:960px; margin:0 auto; padding-bottom: 76px; position:relative; z-index:3; background: #f2f2f2; font-size: 12px;}
+.content {width:960px; margin:0 auto; padding-top: 20px; padding-bottom: 76px; position:relative; z-index:3; font-size: 12px;}
+.clear {clear:both;}
+
+.red {  color: #c30000 !important;}
+.green {  color: #667f15 !important;}
+.name { font-size: 120%;}
+.black {  color: #000000;}
+
+.footer {position:relative; color: #ffffff; background-color:#5e7810; clear:both; min-height: 75px; margin-top: -75px; z-index:3; font-size: 12px;}
+.footer-in {width:960px; margin:0 auto; padding-top: 14px;}
+.footer-in .copy {  float: left; width: 205px;}
+.counter {float: right;}
+.f-text {margin: 0 200px 0 205px; }
+
+.left-column { float: left; width: 254px; padding: 0 0 0 16px;}
+.left-column ul {  border-top: 1px dashed #000;  padding: 15px 20px;  font-size: 14px;}
+.left-column ul:first-child {  border-width: 0;}
+.left-column ul li {  display: block;  padding: 6px 0;}
+.left-column ul li span {  color: #a5a5a5;  font-weight: bold;}
+
+.right-column {margin-left: 280px; padding: 0 20px 0 0;}
+
+
+.sub-menu {  margin-left: -5px;  padding-top: 30px;  padding-bottom: 30px;}
+
+.menu-block {  float: left;  display: block;  background: url("i/block.png") no-repeat;  width: 218px;  height: 217px;  position: relative;  text-decoration: none;  color: #000;  margin-right: 20px;  margin-bottom: 15px;}
+.menu-block:hover {  background: url("i/block_on.png") no-repeat;}
+.menu-block.active {  background: url("i/block_active.png") no-repeat !important;}
+.menu-block .t2 {  display: block;  text-align: center;  font-weight: bold;  height: 36px;  font-size: 17px;  padding-top: 22px;}
+.menu-block.active .t2 {  color: #ffffff;}
+.menu-block .pic {  display: block;    position: absolute;  width: 204px;  height: 150px;  top: 58px;  left: 5px;}
+.menu-block .pic .total {  position: absolute;  width: 100%;  display: block;    text-align: center;  padding-bottom: 6px;  font-size: 14px;  bottom: 0;}
+.menu-block .pic .total2 {  background: url("i/all.png") no-repeat;  width: 71px;  height: 22px;  padding-top: 17px;  position: absolute;  display: block;    text-align: center; font-size: 14px;  color: #fff;  bottom: 0;  right: 0;}
+.menu-block .pic .ordered {  background: url("i/ordered2.png") no-repeat;  width: 85px;  height: 20px;  padding: 4px 0 0 8px;  position: absolute;  display: block;    text-align: left; font-size: 13px;  color: #fff;  bottom: 2px;  left: 2px;}
+
+.how {  text-align: center;  float: left;  margin-left: 5px;}
+.how h3 {  font-size: 20px;  padding: 18px 0 20px 0;  font-weight: normal;}
+
+.notice {  position: relative; margin-top: -76px; z-index: 4; margin-bottom: 76px; background: #fff; font-size: 9px; color: #626262; padding: 30px 0 50px 0; width: 100%;}
+.notice .inside {width: 960px; margin: 0 auto;  }
+
+.incart {  background: #fff;  width: 148px;  position: fixed;  right: 0;  top: 195px;  z-index: 100;}
+.incart h2 {  color: #fff;  background: url("i/cart.gif");  height: 34px;text-shadow: 0px -1px 0 #751f1f; font-size: 14px;padding-left: 10px;padding-top: 8px;line-height: 24px;}
+.incart h2 span {  display: block;  width: 22px;  height: 23px;  float: left;  background: url("i/cart.png");  margin-right: 10px;}
+.incart ul {  padding: 3px 5px 20px 10px;}
+.incart ul li {  position: relative;  padding: 5px 0;  padding-right: 10px;}
+.incart ul .close {  display: block;  width: 10px;  height: 9px;  position: absolute;  right: 0;  top: 8px;  background: url(i/close2.png) no-repeat;}
+.incart a {  color: #000;  text-decoration: none;}
+.incart p {  padding: 0 10px  15px 10px;}
+.incart .buy {  color: #fff;  text-align: center;  display: block;  background: url(i/buy.png);  height: 38px;  font-weight: bold;  font-size: 14px;  line-height: 35px;}
+
+
+.shop-list {}
+.shop {  margin-top: -10px;}
+.shop:first-child {  margin-top: 0px;}
+.shoppic {  float: left;  padding: 6px 0 0 4px;}
+
+.stars {  display: block;  float: left;  background: url("i/stars.gif") right;  line-height: 0;  margin-right: 15px;}
+.stars.m5 {  background-position: left top;}
+.stars.m4 {  background-position: -30px top;}
+.stars.m3 {  background-position: -60px top;}
+.stars.m2 {  background-position: -90px top;}
+.stars.m1 {  background-position: -120px top;}
+.stars.m0 {  background-position: right top;}
+
+.rating {  margin-top: 20px;  line-height: 20px;  font-size: 13px;}
+.shop dl {  color: #707070;  display: block;  margin-left: 112px;  min-height: 200px;}
+.shop h2 {  font-weight: normal;  font-size: 21px;}
+.shop dl dt {  padding: 11px 0 13px 0;}
+.shop dl dd {  float: left;  display: block;}
+.shop dl dd.address {  width: 230px;  padding-right: 18px;  padding-top: 4px;}
+.shop dl dd.price {  width: 78px;  padding-right: 18px;  border-right: 1px solid #a5a5a5;  color: #a5a5a5;}
+.shop dl dd.time {  width: 100px;  float: none;  margin-left: 359px;  color: #a5a5a5;}
+.shop dl dd.time .black, .shop dl dd.price .black {  font-size: 18px;  white-space: nowrap;}
+.shop dl dd.time p, .shop dl dd.price p {  padding: 4px 0;}
+
+.goods-list {  margin-right: -20px;  padding: 38px 0 0 109px;}
+.good {  float: left;  text-align: center;  margin-right: 30px;}
+.good .corners-content {  position: relative;  width: 185px;  height: 190px;  color: #626262;}
+.good .corners-content h2 {  font-size: 17px;  font-weight: bold;  padding: 11px 0 21px 0;}
+.good img {  display: block;  margin: 0 auto;}
+.good a.plus, .good a.minus {  display: block;  width: 24px;  height: 24px;  position: absolute;  top: 88px;}
+.good a.plus {  background: url("i/plus.png") no-repeat; left: 11px;}
+.good a.minus {  background: url("i/minus.png") no-repeat; right: 9px;}
+a.plus:hover {  background: url("i/plus_on.png") no-repeat;}
+a.minus:hover {  background: url("i/minus_on.png") no-repeat;}
+a.buy, a.ordered {  display: block;  color: #fff;  font-weight: bold;  position: absolute;  bottom: -6px;  left: -9px;  text-decoration: none;  padding-top: 6px;  height: 21px;}
+a.buy {  background: url("i/order.png") no-repeat;  width: 86px;}
+a.ordered {  background: url("i/ordered.png") no-repeat;  width: 101px;}
+.add {  color: #a5a5a5;  text-decoration: none;  border-bottom: 1px dotted #a5a5a5;  position: absolute;  top: 143px;  left: 2px;  font-size: 14px;}
+.good .price, .good .total {  position: absolute;  width: 80px;  text-align: center;}
+.good .price {  top: 155px;  left: 92px;  color: #a7a7a7;  font-size: 14px;}
+.good .total {  font-size: 17px;  top: 170px;  left: 110px;}
+.good .total .black {  font-size: 18px;}
+
+.popup {  width: 936px;  position: absolute;  font-size: 14px;}
+.popup h1 {  background: #bdbdbd;  color: #fff;  margin: 0 -10px 26px -9px;  font-size: 30px;  font-weight: normal;  padding: 18px 0 11px 28px;}
+.popup  h1 .close {display: block;  width: 18px;  height: 18px;  position: absolute;  right: 19px;  top: 31px;  background: url(i/close.png) no-repeat;}
+
+
+.popup .items {  color: #000;  float: left;  width: 594px;  padding: 0 0 0 19px;}
+.popup .items .list {  height: 300px;  overflow-y: scroll;  margin-bottom: 8px; padding-top: 8px;}
+.popup .items dl {  height: 60px;  }
+
+.popup .items dt {  padding: 0 0 0 30px;  width: 320px; float: left;}
+.popup .items .close {display: block;  width: 10px;  height: 9px;  position: absolute;  left: 0;  top: 6px;  background: url(i/close2.png) no-repeat;}
+.popup .items .check {display: block;  width: 10px;  height: 9px;  position: absolute;  left: 0;  top: 2px;}
+.popup .items .check input {margin: 0; padding: 0; line-height: 0;}
+.popup .items dd, .popup .items dt {position: relative;}
+.popup .items dd.amount {float: left;}
+.popup .items dd.price {float: none; margin-left: 497px; color: #a7a7a7; font-size: 14px;}
+.popup .items dd.price .total {margin: 0 0 0 -20px; top: 18px; position: relative; font-size: 16px; color: #585858;}
+.popup a.plus, .popup a.minus {  display: block;  width: 24px;  height: 24px; float: left; margin-top: -1px;}
+.popup a.plus {  background: url("i/plus.png") no-repeat; left: 11px;}        
+.popup a.minus {  background: url("i/minus.png") no-repeat; right: 9px;}
+.popup a.plus:hover {  background: url("i/plus_on.png") no-repeat;}
+.popup a.minus:hover {  background: url("i/minus_on.png") no-repeat;}
+.popup .items dd input { 
+    float: left;
+    position: relative;
+    margin: -6px 5px 0 5px;
+    width: 41px;
+    padding: 7px 5px;  
+    font-size: 15px;  
+    outline: none;  
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    border-radius: 5px;  
+    border: 1px solid #717171;  
+    text-align: center;
+}
+
+.popup .items input:focus {  
+    -webkit-box-shadow: 0px 0px 5px #007eff;  
+    -moz-box-shadow: 0px 0px 5px #007eff;  
+    box-shadow: 0px 0px 5px #007eff;  
+} 
+
+.popup .line {  border-top: 1px solid #b6b6b6;  margin: 0 0 24px 0;}
+
+.popup .resume {margin-left: 640px; padding: 0  10px  0 0; color: #585858; font-size: 14px;}
+.popup .resume .total {font-size: 30px; margin-bottom: 69px;}
+.popup .resume p {margin-bottom: 12px;}
+.popup .resume .line {margin: 24px 0 26px 0;}
+.popup .registr {background: url("i/order_button.png") no-repeat; padding-top: 0px; text-align: center; width: 250px;}
+.popup .registr input { border-width: 0; background: transparent; color: #fff; padding: 0; padding-left: 15px; width: 235px; height: 44px; line-height: 1px; font-size: 14px; font-weight: bold; cursor: hand; cursor: pointer;}
+
+
+.popup .compl {color: #585858; float: left;  width: 315px; padding: 0 0 0 19px; margin-top: -6px;}
+.popup .compl .total {font-size: 30px; margin-bottom: 89px;}
+.popup .compl p {margin-bottom: 12px;}
+.popup .compl .line {margin: 36px 0 26px 0;}
+.popup .edit, .popup .buy {width: 250px;text-align: center;}
+.popup .edit {background: url("i/edit.png") no-repeat; margin-bottom: 59px;}
+.popup .buy {background: url("i/order_button.png") no-repeat;}
+.popup .edit input, .popup .buy input { border-width: 0; background: transparent; color: #fff; padding: 0; width: 250px; height: 44px; font-weight: normal; cursor: hand; cursor: pointer; font-size: 21px;text-shadow: 0px -1px 0px #3a4b07; }
+.popup .buy input {width: 235px; padding-left: 15px; font-size: 25px; text-shadow: 0px -1px 0px #3a4b07; }
+.popup .compl h2 {font-size: 20px; font-weight: normal; margin-bottom: 14px; color: #000;}
+
+
+.popup .personal-data { margin-left: 330px; font-size: 12px; color: #9a9a9a;}
+.popup .personal-data dt {text-align: right; width: 148px; padding-right: 14px;}
+.popup .personal-data dt, .popup .personal-data dd { float: left;}
+.popup .personal-data dl {  height:50px;}
+.popup .personal-data dl.comment {  height:80px;}
+
+.popup .personal-data input {     
+    width: 76px;
+    position: relative;
+    margin: -10px 5px 0 5px;
+    padding: 10px 3px;  
+    font-size: 15px;  
+    outline: none;  
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    border-radius: 5px;  
+    border: 1px solid #717171;  
+}
+
+.popup .personal-data input:focus {  
+    -webkit-box-shadow: 0px 0px 5px #007eff;  
+    -moz-box-shadow: 0px 0px 5px #007eff;  
+    box-shadow: 0px 0px 5px #007eff;  
+} 
+
+.popup .personal-data textarea {
+    height: 70px;     
+    position: relative;
+    margin: -10px 5px 0 5px;
+    padding: 5px 3px;  
+    font-size: 15px;  
+    outline: none;  
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    border-radius: 5px;  
+    border: 1px solid #717171;  
+}
+
+.popup .personal-data input:focus {  
+    -webkit-box-shadow: 0px 0px 5px #007eff;  
+    -moz-box-shadow: 0px 0px 5px #007eff;  
+    box-shadow: 0px 0px 5px #007eff;  
+} 
+
+.popup .personal-data .bs {  width: 375px;}
+.popup .personal-data input.bs2 {  width: 291px; margin-left: 15px;}
+.popup .personal-data input.ss {width: 35px;  padding: 10px 2px; margin-left:14px;}
+.popup .personal-data dd.adr {  width: 185px;  padding-right: 20px;  text-align: right;}

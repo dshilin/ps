@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <title>title</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+<!--[if lt IE 8]>
+  <link rel="stylesheet" type="text/css" href="style/ie.css">  
+  <![endif]-->
+</head>
+<body>
+
+
+<div class="wrapper">
+
+  <div class="head">
+
+  <p class="logo"><a href="#">Служба заказов и доставки<%= image_tag "i/logo.png"%></a></p>
+
+  <ul class="top-nav">
+    <li><span>О нас</span></li>
+    <li><a href="/">Доставка</a></li>
+    <li><a href="/">Акции</a></li>
+    <li><a href="/">Вакансии</a></li>
+    <li><a href="/">Контакты</a></li>
+  </ul>
+
+  <div class="contacts">
+
+    <div class="phone">
+      <p>Горячая линия в Балаково:</p>
+      <span>+7 927<br /><span>
+      225-36-15</span></span>
+    </div>
+
+    <div class="schedule">
+     <p><span class="red">Пн-Пт</span> с 10:00 до 20:00
+     <p><span class="red">Сб-Вс</span> с 09:00 до 22:00
+    </div>
+
+  </div>
+
+  <div class="authorization">
+    <a href="/">Авторизация</a> / <a href="/" class="red">Регистрация</a>
+  </div>
+
+  <div class="offer">
+    <a href="/" class="left"></a>
+    <a href="/"><%=image_tag"banner/1.png"%></a>
+    <a href="/" class="right"></a>
+  </div>
+                     
+  </div><!--end head -->
+
+  <div class="content">
+
+    <p><span class="green name">Planeta smile</span> - служба доставки по городу Балаково. Доставка еды из кафе на дом и в офис, в любое время. Если Вы хотите сэкономить время и успеть больше, то делайте заказ прямо сейчас и получайте 15% стоимости заказа на Ваш накопительный счет. 
+    	Заказать еду на любой день можно на этой странице (круглосуточно) или по телефонам <span class="red">68-36-15, +7-927-225-36-15</span>.
+    	Внимание! Хотите покупать еду с неслыханной скидкой? Или даже БЕСПЛАТНО — всё зависит от Вас!</p>
+
+    <div class="sub-menu">
+
+      <a href="/" class="menu-block active">
+        <span class="t2">Готовые блюда</span>
+        <span class="pic m1">
+          <span class="total">Всего товаров : 7832</span>
+        </span>
+      </a>
+
+      <a href="/" class="menu-block">
+        <span class="t2">Продукты</span>
+        <span class="pic m2">
+          <span class="total">Всего товаров : 7832</span>
+        </span>
+      </a>
+
+      <a href="/" class="menu-block">
+        <span class="t2">Товары для дома</span>
+        <span class="pic m3">
+          <span class="total">Всего товаров : 7832</span>
+        </span>
+      </a>
+
+      <a href="/" class="menu-block">
+        <span class="t2">Книги</span>
+        <span class="pic m4">
+          <span class="total">Всего товаров : 7832</span>
+        </span>
+      </a>
+
+      <a href="/" class="menu-block">
+        <span class="t2">Диски</span>
+        <span class="pic m5">
+          <span class="total">Всего товаров : 7832</span>
+        </span>
+      </a>
+
+
+      <div class="how">
+        <h3>Как это работает?</h3>
+        <%= image_tag "i/how.png"%>
+      </div>
+
+      <div class="clear"></div>
+
+    </div>
+
+  </div>  
+
+</div><!-- end wrapper -->  
+
+<div class="footer"> 
+  <div class="footer-in">
+    <div class="copy">&copy; Planeta Smile <br />2010-2011</div>
+
+    <div class="counter">
+      <a href="/"><img src="style/i/1.gif" alt="" /></a>
+    </div>
+
+    <div class="f-text"><p>Planeta Smile - все будет хорошо!</p></div>
+  </div>
+</div>  <!--end footer -->       
+
+
+</body></html>
