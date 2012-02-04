@@ -1,4 +1,4 @@
-P::Application.routes.draw do
+PlanetaSmile::Application.routes.draw do
   get "shop/index"
 
   # The priority is based upon order of creation:

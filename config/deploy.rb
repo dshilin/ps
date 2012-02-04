@@ -9,7 +9,7 @@ set :repository,  "git@github.com:dshilin/ps.git"
 set :user, "hosting_snayp"
 set :use_sudo, false
 set :deploy_to, "/home/hosting_snayp/projects/planeta-smile"
-
+set :normalize_asset_timestamps, false
 
 role :web, "hydrogen.locum.ru"   # Your HTTP server, Apache/etc
 role :app, "hydrogen.locum.ru"   # This may be the same as your `Web` server
